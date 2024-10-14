@@ -255,6 +255,11 @@ class EngineeringCalculator(Calculator):
 
         return result
 
+# 사용자예외
+class DivisionByZeroError(Exception):
+    '''예외 : 0으로 나누기'''
+    pass
+
 
 # 파일 직접 실행시 데모
 if __name__ == "__main__":
